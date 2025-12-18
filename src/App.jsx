@@ -7,7 +7,7 @@ import TodoList from './components/TodoList.jsx';
 import { filterTasks } from './utils/filterUtils';
 
 /* ================= BACKEND ================= */
-const API_URL = 'https://backend-todo-1612.onrender.com/';
+const API_URL = 'https://backend-todo-1612.onrender.com/task';
 
 async function fetchTasks() {
   try {
